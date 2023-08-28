@@ -1,3 +1,7 @@
+.lebar {
+    width: 30%;
+}
+
 .res::after {
     position: absolute;
     right: 0;
