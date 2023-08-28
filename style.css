@@ -1,0 +1,40 @@
+.res::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media (min-width:0px) {
+    .res::after {
+        content: "XS";
+    }
+}
+@media (min-width:576px){
+    .res::after {
+        content: "SM";
+    }
+
+}
+@media (min-width:768px){
+    .res::after {
+        content: "MD";
+    }
+}
+@media (min-width:992px){
+    .res::after {
+        content: "LG";
+    }
+
+}
+@media (min-width:1200px){
+    .res::after {
+        content: "XL";
+    }
+
+}
+@media (min-width:1400px){
+    .res::after {
+        content: "XXL";
+    }
+
+}
