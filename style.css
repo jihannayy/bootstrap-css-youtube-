@@ -2,6 +2,13 @@
     width: 30%;
 }
 
+.carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
 .res::after {
     position: absolute;
     right: 0;
